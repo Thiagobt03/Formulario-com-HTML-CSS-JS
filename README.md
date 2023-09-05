@@ -13,12 +13,12 @@ Este projeto foi criado como parte do meu aprendizado inicial em programação w
 1. Clone este repositório para o seu sistema local:
 
    ```bash
-   git clone https://github.com/seu-usuario/meu-primeiro-projeto-html-css-js.git
+   git clone https://github.com/Thiagobt03/Formulario-com-HTML-CSS-JS.git
 
 
 2. Navegue até o diretório do projeto:
     ```
-    cd meu-primeiro-projeto-html-css-js
+    https://github.com/Thiagobt03/Formulario-com-HTML-CSS-JS
 
 3. Abra o arquivo index.html em seu navegador da web para visualizar o formulário.
 
