@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.textos h1 {
+    width: 450px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container .textos p {
+    width: 400px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container .form {
+    background-color: #fafafa;
+    width: 400px;
+    height: 500px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.container .form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control textarea {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control i {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.text-obrigatorio{
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+.form button {
+    background-color: #3CCC87;
+    border: 2px solid #3CCC87;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Error and Success */
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form-control.success textarea{
+    border-color: #2ecc71;
+}
+
+.form-control.error textarea{
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
